@@ -10,7 +10,7 @@
 
 <body class="h-screen w-screen">
     <div class="flex bg-gray-950 h-12 w-full">
-        <div class="flex flex-1 justify-start items-center ml-2 p-2 gap-2">
+        <div class="flex flex-1 justify-start items-center ml-2 p-2 gap-2 w-full">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="cursor-pointer size-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
@@ -96,7 +96,31 @@
             <img src="src/image/png/library.png" class="cursor-pointer flex mt-5 mb-1 justify-center h-7 w-7 ">
             <p class="text-white text-xs mb-5">Library</p>
         </div>
-        <div class="bg-purple-600 h-80 w-screen"></div>
+        <div class="flex flex-col w-screen">
+            <div class="flex bg-purple-600 h-150 w-full"></div>
+            <div class="flex justify-center bg-gray-900 h-full w-full">
+                <div class="flex justify-between pt-20 w-3/4">
+                    <div class="flex">
+                        <div class="h-30 w-30 bg-purple-600 rounded-full cursor-pointer mr-2">
+                        </div>
+                        <div class="pt-8 pl-2">
+                            <h3 class="text-white text-lg">Channel Name</h3>
+                            <p class="text-gray-400 text-sm">5.5M subscribers</p>
+                        </div>
+                    </div>
+                    <div>
+                        <button
+                            class="h-9 w-27 bg-white rounded-full cursor-pointer mt-9 text-base font-bold">Subscribe</button>
+                    </div>
+
+                    <div class="absolute mt-40 w-15 h-15 bg-gray-700"></div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
     </div>
 </body>
 
