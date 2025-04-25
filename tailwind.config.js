@@ -1,7 +1,14 @@
 module.exports = {
-    content: ["./src/**/*.{html,js}"], // Ajuste os caminhos conforme necessário
+    content: [
+      "./index.html",
+      "./src/**/*.{html,js}"
+    ], // Ajuste os caminhos conforme necessário
     theme: {
-      extend: {},
+      extend: {
+        width: {
+          "inherit": "inherit",
+        }
+      },
     },
     plugins: [],
   };

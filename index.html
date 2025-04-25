@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Copy Youtube</title>
     <link href="src/output.css" rel="stylesheet">
+    <link href="src/style.css" rel="stylesheet">
 </head>
 
-<body class="h-screen w-screen">
+<body class="h-screen w-screen bg-gray-900">
     <div class="flex bg-gray-950 h-12 w-full">
         <div class="flex flex-1 justify-start items-center ml-2 p-2 gap-2 w-full">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -99,9 +100,9 @@
         <div class="flex flex-col w-screen">
             <div class="flex bg-purple-600 h-150 w-full"></div>
             <div class="flex justify-center bg-gray-900 h-full w-full">
-                <div class="flex justify-between pt-20 w-3/4">
+                <div class="flex justify-between h-full pt-20 w-3/4">
                     <div class="flex">
-                        <div class="h-30 w-30 bg-purple-600 rounded-full cursor-pointer mr-2">
+                        <div class="h-30 w-30 bg-purple-600 rounded-full mr-2">
                         </div>
                         <div class="pt-8 pl-2">
                             <h3 class="text-white text-lg">Channel Name</h3>
@@ -113,11 +114,25 @@
                             class="h-9 w-27 bg-white rounded-full cursor-pointer mt-9 text-base font-bold">Subscribe</button>
                     </div>
 
-                    <div class="absolute mt-40 w-15 h-15 bg-gray-700"></div>
+                    <div class="absolute mt-25 w-inherit h-full">
+                        <div class="text-gray-400 p-10 text-sm flex justify-between">
+                            <button class="h-9 w-22 border-b-2 cursor-pointer">HOME</button>
+                            <button class="h-10 w-20 cursor-pointer">VIDEOS</button>
+                            <button class="h-10 w-20 cursor-pointer">PLAYLIST</button>
+                            <button class="h-10 w-20 cursor-pointer">COMMUNITY</button>
+                            <button class="h-10 w-20 cursor-pointer">STORE</button>
+                            <button class="h-10 w-20 cursor-pointer">CHANNELS</button>
+                            <button class="h-10 w-20 cursor-pointer">ABOUT</button>
+                            <button class="h-10 w-20 cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6" style="color: white;">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
                 </div>
-
-
-
             </div>
         </div>
     </div>
